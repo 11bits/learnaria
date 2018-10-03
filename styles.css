@@ -298,7 +298,8 @@ h2.box {
 }
 
 div.box,
-nav.box {
+nav.box,
+aside.box {
 	padding: .5em;
 	background-color: #FCFCFC;
 	color: black;
@@ -308,18 +309,21 @@ nav.box {
 }
 
 div.box a:link,
-nav.box a:link {
+nav.box a:link,
+aside.box a:link, {
 	text-decoration: none;
 }
 
 div.box a:visited,
-nav.box a:visited {
+nav.box a:visited,
+aside.box a:visited {
 	color: #2A6C28;
 	text-decoration: none;
 }
 
 div.box a:hover,
-nav.box a:hover {
+nav.box a:hover,
+aside.box a:hover {
 	text-decoration: underline;
 }
 
