@@ -77,7 +77,7 @@
 
                 <main role="main" class="profile">
                     <h2>Join our community</h2>
-                    <div id="feedback">&nbsp;</div>
+                    <div role="alert" id="feedback">&nbsp;</div>
                     <form id="join_form">
                         <dl>
                             <dt>
@@ -88,7 +88,7 @@
                             <dt>
                                 <label for="username">Username:</label><img src="images/required.gif"  alt="Required Field" class="img" />
                             </dt>
-                            <dd><input id="username" class="input" type="text" value="" maxlength="30" size="20" name="username"  aria-required="true" aria-describedby="username_error"><br />
+                            <dd><input id="username" class="input" type="text" value="" maxlength="30" size="20" name="username" aria-required="true" aria-describedby="username_error"><br />
                                 <span id="username_error">&nbsp;</span><br />
                             </dd>
                             <dt>
@@ -96,7 +96,7 @@
                                 <img src="images/required.gif"  alt="Required Field" />
                             </dt>
                             <dd>
-                                <input type="text" name="password" size="20" id="password" value="" class="input" /><br />
+                                <input type="text" class="input" name="password" size="20" id="password" value="" aria-required="true" aria-describedby="password_error" /><br />
                                 <span id="password_error">&nbsp;</span>
                             </dd>
                             <dt>
@@ -104,7 +104,7 @@
                                 <img src="images/required.gif" class="img" />
                             </dt>
                             <dd>
-                                <input type="text" name="email" size="30" id="email" value="" class="input"/><br />
+                                <input type="text" class="input" name="email" size="30" id="email" value="" aria-required="true" aria-describedby="email_error" /><br />
                                 <span id="email_error">&nbsp;</span>
                             </dd>
                             <dt>
