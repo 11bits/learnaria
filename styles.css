@@ -61,7 +61,7 @@ body {
     text-align:left;
     float:left;
     margin-left: .8em;
-} 
+}
 #join_form{
 	width:95%;
 }
@@ -113,9 +113,9 @@ legend.group_form{
 
 }
 div.input-form {
-	width: 90%; 
+	width: 90%;
 	float:left;
-	margin-left:auto; 
+	margin-left:auto;
 	margin-right:auto;
 	background-color:#FCFCFC;
 	margin-bottom: 10px;
@@ -168,7 +168,7 @@ h1#section-title {
 	margin-left:1em;
 	margin-top:-1em;
 	white-space: nowrap;
-	
+
 }
 
 h2 {
@@ -271,7 +271,7 @@ div#breadcrumbs {
 }
 
 #header{
-	background-image: url('images/mesh-pattern.jpg'); 
+	background-image: url('images/mesh-pattern.jpg');
 	background-repeat: repeat-x;
 	height:4.5em;
 	margin-bottom:-3em;
@@ -293,11 +293,12 @@ h2.box {
 	padding:.5em;
     margin-bottom:-.3em;
 	background-image: linear-gradient(#FAFAFA, #EAEAEA);
-	background-color: #EAEAEA; 
+	background-color: #EAEAEA;
 	border-bottom:1px solid #F4F0CB;
 }
 
-div.box {
+div.box,
+nav.box {
 	padding: .5em;
 	background-color: #FCFCFC;
 	color: black;
@@ -306,22 +307,25 @@ div.box {
 	-moz-border-radius: .0em .0em .5em .5em;
 }
 
-div.box a:link {
+div.box a:link,
+nav.box a:link {
 	text-decoration: none;
 }
 
-div.box a:visited {
+div.box a:visited,
+nav.box a:visited {
 	color: #2A6C28;
 	text-decoration: none;
 }
 
-div.box a:hover {
+div.box a:hover,
+nav.box a:hover {
 	text-decoration: underline;
 }
 
-div.box h1, 
-div.box h2, 
-div.box h3, 
+div.box h1,
+div.box h2,
+div.box h3,
 div.box h4 {
 	margin: 0;
 	padding: 0;
@@ -393,7 +397,7 @@ ul#topnavlist li {
 	border-right:1px solid transparent;
     border-bottom: 3px solid transparent;
 	border-radius: .5em .5em 0em 0em;
-	-moz-border-radius: .5em .5em 0em 0em;	
+	-moz-border-radius: .5em .5em 0em 0em;
 	background-image: linear-gradient(#FAFAFA, #EAEAEA);
 
 
@@ -407,7 +411,7 @@ ul#topnavlist li, ul#topnavlist li a:hover, ul#topnavlist li a:focus, ul#topnavl
 	text-decoration:none;
 	border-radius: .5em .5em 0em 0em;
 	-moz-border-radius: .5em .5em 0em 0em;
-	
+
 
 }
 
@@ -429,7 +433,7 @@ ul#topnavlist li a {
 	padding: .2em 1.8em .6em 1.8em;
 	margin-bottom:0em;
 	border-bottom: 3px solid transparent;
-	
+
 
 }
 
@@ -445,9 +449,9 @@ ul#topnavlist li a.selected {
 }
 
 #side-menu{
-	overflow:hidden; 
+	overflow:hidden;
 	width:20.5em;
-	padding-bottom:.3em; 
+	padding-bottom:.3em;
 	padding-right:.5em;
     margin-bottom:1em;
 }
@@ -455,10 +459,10 @@ ul#topnavlist li a.selected {
 
 
 .logoutbar{
-	background-color: #F3F3F3;        
+	background-color: #F3F3F3;
     background-image: linear-gradient(#FAFAFA, #EAEAEA);
-    font-size:0.85em; 
-    border-bottom:1px solid #F4F0CB; 
+    font-size:0.85em;
+    border-bottom:1px solid #F4F0CB;
     height:2.5em;
     text-align:right;
     padding-right:1em;
@@ -495,8 +499,8 @@ ul.social_side_menu li {
 }
 
 div .divider {
-	border-bottom:1px solid #C1C157; 
-	padding-bottom:0.5em; 
+	border-bottom:1px solid #C1C157;
+	padding-bottom:0.5em;
 	margin-bottom:0.5em;
 }
 
