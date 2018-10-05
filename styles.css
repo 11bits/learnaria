@@ -338,8 +338,8 @@ div.box h4 {
 /* floating layout */
 #contentwrapper{
 	float: left;
+    margin-bottom: 9em;
 	width: 100%;
-    overflow:auto;
 
 }
 #contentcolumn {
@@ -356,6 +356,7 @@ div.box h4 {
 }
 
 #footer{
+    clear: both;
     font-size:.8em;
     border-top: 1px solid #E5E5E5;
 	width: 100%;
